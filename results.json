@@ -1,0 +1,150 @@
+{
+  "train_seconds": 54.42595553398132,
+  "steps": 150000,
+  "episodes": 192,
+  "train_track": {
+    "random": {
+      "track": 1,
+      "mean_laps": 0.08152777777777778,
+      "std_laps": 0.0525306715226189,
+      "survive_rate": 0.0,
+      "mean_speed": 1.4847201184366723,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "heuristic": {
+      "track": 1,
+      "mean_laps": 7.8768055555555545,
+      "std_laps": 0.07574361298094642,
+      "survive_rate": 1.0,
+      "mean_speed": 4.0659062351778745,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "dqn": {
+      "track": 1,
+      "mean_laps": 9.189027777777778,
+      "std_laps": 0.008073495349629724,
+      "survive_rate": 1.0,
+      "mean_speed": 4.9914342395703155,
+      "episodes": 20,
+      "max_steps": 3000
+    }
+  },
+  "unseen_2": {
+    "random": {
+      "track": 2,
+      "mean_laps": 0.07638888888888888,
+      "std_laps": 0.03813252556772026,
+      "survive_rate": 0.0,
+      "mean_speed": 1.6005971113583126,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "heuristic": {
+      "track": 2,
+      "mean_laps": 7.786527777777776,
+      "std_laps": 0.07708658651793873,
+      "survive_rate": 1.0,
+      "mean_speed": 4.066456235177876,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "dqn": {
+      "track": 2,
+      "mean_laps": 9.063055555555556,
+      "std_laps": 0.008962369891611756,
+      "survive_rate": 1.0,
+      "mean_speed": 4.990954318650477,
+      "episodes": 20,
+      "max_steps": 3000
+    }
+  },
+  "unseen_3": {
+    "random": {
+      "track": 3,
+      "mean_laps": 0.08194444444444446,
+      "std_laps": 0.05422361678534502,
+      "survive_rate": 0.0,
+      "mean_speed": 1.5258142530504828,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "heuristic": {
+      "track": 3,
+      "mean_laps": 7.840694444444445,
+      "std_laps": 0.07411137660288945,
+      "survive_rate": 1.0,
+      "mean_speed": 4.067228735177875,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "dqn": {
+      "track": 3,
+      "mean_laps": 9.144444444444446,
+      "std_laps": 0.008098544298396175,
+      "survive_rate": 1.0,
+      "mean_speed": 4.991246173965842,
+      "episodes": 20,
+      "max_steps": 3000
+    }
+  },
+  "unseen_4": {
+    "random": {
+      "track": 4,
+      "mean_laps": 0.08055555555555556,
+      "std_laps": 0.05752079602464349,
+      "survive_rate": 0.0,
+      "mean_speed": 1.6237185141419943,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "heuristic": {
+      "track": 4,
+      "mean_laps": 7.635,
+      "std_laps": 0.07841209594267613,
+      "survive_rate": 1.0,
+      "mean_speed": 4.065728735177873,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "dqn": {
+      "track": 4,
+      "mean_laps": 8.886111111111111,
+      "std_laps": 0.009378857231185674,
+      "survive_rate": 1.0,
+      "mean_speed": 4.990745821683961,
+      "episodes": 20,
+      "max_steps": 3000
+    }
+  },
+  "unseen_5": {
+    "random": {
+      "track": 5,
+      "mean_laps": 0.0876388888888889,
+      "std_laps": 0.052730058836855775,
+      "survive_rate": 0.0,
+      "mean_speed": 1.535811851125098,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "heuristic": {
+      "track": 5,
+      "mean_laps": 7.7965277777777775,
+      "std_laps": 0.07011275640788271,
+      "survive_rate": 1.0,
+      "mean_speed": 4.065748735177875,
+      "episodes": 20,
+      "max_steps": 3000
+    },
+    "dqn": {
+      "track": 5,
+      "mean_laps": 9.101944444444445,
+      "std_laps": 0.009300371690435173,
+      "survive_rate": 1.0,
+      "mean_speed": 4.991204747422961,
+      "episodes": 20,
+      "max_steps": 3000
+    }
+  }
+}
