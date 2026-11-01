@@ -18,7 +18,7 @@
 - **Why random start positions?** Otherwise the car only practises the first corner.
 - **Why isn't a time-limit ending treated as terminal?** The car isn't actually in a failure state, so bootstrapping should continue.
 
-**Be upfront about the limits**
+**Being upfront about the limits**
 - The DQN beats my heuristic mainly because it drives faster, so both survive but the lap count mostly measures speed.
 - The unseen tracks come from the same generator as the training track.
 - The physics is simplified, there's no traffic, and I ran only 3 seeds with no hyperparameter search.
